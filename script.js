@@ -1,5 +1,5 @@
 // Конфигурация
-const formcarryUrl = "https://formcarry.com/s/ВАШ_ID_ФОРМЫ"; // ЗАМЕНИТЕ на свой URL с formcarry.com
+const formcarryUrl = "https://formcarry.com/s/_YEWfSZanNd"; // ЗАМЕНИТЕ на свой URL с formcarry.com
 const storageKey = "feedbackFormData";
 
 // Элементы DOM
