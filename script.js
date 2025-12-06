@@ -91,7 +91,7 @@ formFields.forEach(field => {
     }
 });
 
-// ========== ОТПРАВКА ФОРМЫ (FETCH API) ==========
+// ========== ОТПРАВКА ФОРМЫ  ==========
 async function handleFormSubmit(event) {
     event.preventDefault(); // Отменяем стандартную отправку
 
@@ -109,7 +109,7 @@ async function handleFormSubmit(event) {
     });
 
     try {
-        // Отправляем запрос с помощью Fetch API [citation:4]
+        // Отправляем запрос с помощью Fetch API 
         const response = await fetch(formcarryUrl, {
             method: 'POST',
             headers: {
